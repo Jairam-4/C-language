@@ -13,42 +13,42 @@ int main() {
 
         switch (a) {
             case 'M': 
-                printf("\nSubtract 6 from your answer \n (B)");
+                printf("\nSubtract 6 from your answer \n B");
                 break;
             
             case 'A': 
-                printf("\nChoose a number between 1-10\n (I)");
+                printf("\nChoose a number between 1-10\n I");
                 break;
 
             case 'a': 
-                printf("\nDivide the answer by your original number \n(M)");
+                printf("\nDivide the answer by your original number \nM");
                 break;
 
             case 'R': 
-                printf("\nMultiply with 5\n (a)");
+                printf("\nMultiply with 5\na");
                 break;
 
             case 'B': 
-                printf("\nYour answer is 4 🎉\n (Y)");
+                printf("\nYour answer is 4 🎉\nY");
                 break;
 
             case 'I': 
-                printf("\nMultiply with 2\n (R)");
+                printf("\nMultiply with 2\nR");
                 break;
 
             case 'Y': 
-                printf("\nGame Over! Thanks for playing. 🎮 \n(E)");
-                return 0;  
+                printf("\nGame Over! Thanks for playing. 🎮\nE ");
+                break;  
             case 'E': 
-                printf("\nTo continue, input \n(J)");
+                printf("\nTo continue, input \n J");
                 break;
 
             case 'J': 
-                printf("\nTake a pen & paper for calculations\n (A)");
+                printf("\nTake a pen & paper for calculations\nA");
                 break;
 
             default:
-                printf("\nYou lost the game! Try again \n(J)");
+                printf("\nYou lost the game! Try again \nJ");
                 break;
         }
     }

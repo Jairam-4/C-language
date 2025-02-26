@@ -17,7 +17,7 @@ int main() {
                 break;
             
             case 'A': 
-                printf("\nChoose a number between 1-10\n I");
+                printf("\nChoose a number \n I");
                 break;
 
             case 'a': 

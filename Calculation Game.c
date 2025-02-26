@@ -1,5 +1,4 @@
 #include <stdio.h>
-
 int main() {
     char a;
     printf("Before playing the game, follow these steps:\n");
